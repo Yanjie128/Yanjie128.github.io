@@ -1,10 +1,12 @@
-<!-- ---
+---
 layout: home
 author_profile: true
 title: 👋 你好，我是 Yan Jie
 ---
 
-欢迎来到我的个人网站。
+欢迎来到我的技术博客。
+
+<!-- 欢迎来到我的个人网站。
 
 我现在是一名EE专业学生
 
@@ -37,7 +39,7 @@ title: 👋 你好，我是 Yan Jie
 
 - GitHub: https://github.com/Yanjie128
 - Email: <yli413241@gmail.com> -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="zh-CN">
 
 <head>
@@ -153,4 +155,4 @@ title: 👋 你好，我是 Yan Jie
 
 </body>
 
-</html>
+</html> -->
