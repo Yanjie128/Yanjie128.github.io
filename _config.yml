@@ -11,18 +11,18 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin:   "dark"
+minimal_mistakes_skin    :   "air"
 
 # Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Yanjie Site"
 title_separator          : "-"
-subtitle                 : "EE | Backend Dev | AI"
-name                     : "Yanjie"
-description              : "EE Student | AI | Backend "
+subtitle                 : "EE | Backend Dev | AI | "
+name                     : "Mi Yanjie"
+description              : "EE Undergraduate at HEU | Incoming Graduate Student at DUT"
 url                      : "https://yanjie128.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Yanjie128/Yanjie128.github.io"
@@ -118,7 +118,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "EE Student focused on AI & Backend"
   location         : "Mainland of China"
-  email            :  "yli413241@gmail.com"
+  # email            :  "yli413241@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
