@@ -18,9 +18,9 @@ minimal_mistakes_skin    :   "default"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Yanjie Site"
+title                    : "EyengeolSite"
 title_separator          : "-"
-subtitle                 : "EE • Backend • Systems • Engineering • AI "
+# subtitle                 : ""
 name                     : "Mi Yanjie"
 description              : "EE Undergraduate at HEU | Incoming Graduate Student at DUT"
 url                      : "https://yanjie128.github.io"
@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "Yanjie"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "EE Undergraduate at HEU | Incoming Graduate Student at DUT"
+  bio              : "EE • Backend • Systems • Engineering • AI"
   location         : "Mainland of China"
   # email            :  "yli413241@gmail.com"
   links:
