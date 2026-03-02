@@ -20,7 +20,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Yanjie Site"
 title_separator          : "-"
-subtitle                 : "EE | Backend Dev | AI | "
+subtitle                 : "EE • Backend • Systems • Engineering • AI "
 name                     : "Mi Yanjie"
 description              : "EE Undergraduate at HEU | Incoming Graduate Student at DUT"
 url                      : "https://yanjie128.github.io"
