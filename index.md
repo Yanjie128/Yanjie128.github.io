@@ -1,10 +1,9 @@
 ---
 layout: home
 author_profile: true
-title: 👋 你好，我是 Yan Jie
+title: 
 ---
 
-欢迎来到我的技术博客。
 
 <!-- 欢迎来到我的个人网站。
 
