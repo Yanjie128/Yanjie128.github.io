@@ -114,9 +114,9 @@ analytics:
 
 # Site Author
 author:
-  # name             : "Yanjie"
+  name             : "Yanjie"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  # bio              : "EE Student focused on AI & Backend"
+  bio              : "EE Undergraduate at HEU | Incoming Graduate Student at DUT"
   location         : "Mainland of China"
   # email            :  "yli413241@gmail.com"
   links:
