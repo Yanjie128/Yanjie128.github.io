@@ -36,4 +36,4 @@ title: 👋 你好，我是 Yan Jie
 ## 📫 联系我
 
 - GitHub: <https: //github.com/Yanjie128>
-    - Email: <yli413241@gmail.com>
+- Email: <yli413241@gmail.com>
