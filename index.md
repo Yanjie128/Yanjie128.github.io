@@ -9,6 +9,4 @@ Welcome to my GitHub Page!🚀🚀🚀
 
 I am a student majoring EE, and currently study at Harbin Engineering University.
 
-📅 Expected graduation: June 2026.
-
-In these repository, I will release projects📦, tools💻, and other interesting things🔴.
+In these repository, I will release and share projects📦, tools💻, and other interesting things🔴.
