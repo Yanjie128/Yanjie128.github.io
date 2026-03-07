@@ -7,9 +7,11 @@ title:
 
 Welcome to my GitHub Page!🚀🚀🚀
 
-I am a student majoring EE, and currently study at Harbin Engineering University. I will graduate in June 2026.
+I am a student majoring EE, and currently study at Harbin Engineering University.
 
-In these repository, I will release projects📦, tools💻, and other interesting things🔴. 
+📅 Expected graduation: June 2026.
+
+In these repository, I will release projects📦, tools💻, and other interesting things🔴.
 <!-- 欢迎来到我的个人网站。
 
 我现在是一名EE专业学生
