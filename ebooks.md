@@ -6,10 +6,18 @@ permalink: /ebooks/
 
 ## Computer Networks
 
+<div style="border:1px solid #ddd; border-radius:8px; overflow:hidden;">
 <iframe
-src="https://raw.githubusercontent.com/Yanjie128/ebook/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%AC%AC7%E7%89%88-%E8%B0%A2%E5%B8%8C%E4%BB%81.pdf"
+src="/assets/ebooks/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.pdf"
 width="100%"
-height="900px">
+height="900px"
+style="border:none;"
+loading="lazy">
 </iframe>
+</div>
 
-[Download PDF](https://raw.githubusercontent.com/Yanjie128/ebook/main/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C-%E7%AC%AC7%E7%89%88-%E8%B0%A2%E5%B8%8C%E4%BB%81.pdf)
+<p style="margin-top:10px;">
+<a href="/assets/ebooks/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86.pdf" target="_blank">
+📄 在新窗口打开
+</a>
+</p>
