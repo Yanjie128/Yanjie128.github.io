@@ -79,7 +79,7 @@ heuthesis.ins
 在终端中运行：
 
 ```bash
-latex heuthesis.ins
+xelatex heuthesis.ins
 ```
 
 执行完成后，会生成如下文件：
@@ -167,7 +167,7 @@ main.pdf
 
 ### VSCode 编译 HEUThesis 论文模板报错：`I can't find file main.tex` 解决方法
 
-在使用HeuThesis时，很多人在 VSCode 终端编译会遇到类似报错：
+在使用HeuThesis时，很多人在 VSCode 终端编译会遇到类似报错😡:
 
 ```text
 ! I can't find file 'main.tex'.
@@ -205,7 +205,7 @@ xelatex main.tex
 
 如下图所示：
 
-![alt text](image.png)
+![alt text](/assets/blog_picture/image.png)
 
 ---
 
@@ -272,6 +272,10 @@ xelatex main.tex
 cd D:\Mi Yanjie\Documents\HeuThesis-master\heuthesis-master\examples\book\bachelor
 xelatex main.tex
 ```
+
+参考这个terminal界面就是成功编译的状态
+
+![参考这个terminal界面就是成功编译的状态](/assets/blog_picture/image1.png)
 
 ---
 
@@ -378,3 +382,9 @@ HEUThesis 模板编译失败，大多数情况下不是 LaTeX 问题，而是 **
 基本都可以正常编译。
 
 ---
+
+#### 9、参考
+
+- [HeuThesis 官方仓库](https://github.com/Li-Wenhui/HeuThesis.git)
+
+- LaTeX Workshop 插件文档
