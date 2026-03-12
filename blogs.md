@@ -1,5 +1,7 @@
 ---
-layout: archive
-title: "Blog"
-permalink: /posts/
+layout: single
+title: "Blogs"
+permalink: /blogs/
 ---
+
+My blog.
