@@ -14,7 +14,8 @@ tags:
 
 最近准备使用Latex完成本科毕业设计。但是发现学校提供的开源Latex模板不太容易入门，因此通过这一篇博客讲述一下如何初始化毕设模板。
 
-你需要准备的内容有:
+需要准备的内容有:
+
 - VScode
 - 下载[清华源texlive2026.iso](https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/)
 - VSCode的插件[Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
