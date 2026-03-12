@@ -1,9 +1,13 @@
 ---
-layout: post
-title: "使用 LaTeX 完成本科毕业论文"
+title: 使用 Latex 解决毕业设计问题
 date: 2026-03-12
-categories: blog
-tags: [latex, thesis, vscode]
+layout: single
+author_profile: true
+categories:
+  - Blog
+tags:
+  - Latex
+  - Thesis
 ---
 
 # 使用Latex 解决毕业设计头痛问题

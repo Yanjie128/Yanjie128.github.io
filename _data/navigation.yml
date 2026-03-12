@@ -4,17 +4,17 @@ main:
     url: 
   
   - title: "Projects"
-    url: 
+    url: /projects/
 
   - title: "Blog"
-    url: 
+    url: /post/
   
   - title: "Resume"
-    url: 
+    url: /resume/
 
   - title: "About"
-    url: 
+    url: /about/
 
   - title: "GitHub"
-    url: 
+    url: "https://github.com/Yanjie128"
 
