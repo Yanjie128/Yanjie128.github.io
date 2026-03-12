@@ -77,7 +77,13 @@ heuthesis.ins
 
 该文件用于生成论文模板的核心类文件 `heuthesisbook.cls`。
 
-在终端中运行：
+首先,新建一个terminal,在终端中输入:
+
+```bash
+cd heuthesis-master
+```
+
+进入跟文件夹后, 在终端中运行:
 
 ```bash
 xelatex heuthesis.ins
