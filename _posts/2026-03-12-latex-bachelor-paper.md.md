@@ -10,21 +10,164 @@ tags:
   - Thesis
 ---
 
-# 使用Latex 解决毕业设计头痛问题
-
 2026.03.12
 
-最近准备使用latex完成本科毕业设计。但是发现学校提供的开源latex模板不太容易入门，因此通过这一篇博客讲述一下如何初始化毕设。
+最近准备使用Latex完成本科毕业设计。但是发现学校提供的开源Latex模板不太容易入门，因此通过这一篇博客讲述一下如何初始化毕设模板。
 
-你需要准备的软件，有vscode，从清华源下载的texlive2026.iso，还有一些VSCode的插件。希望这一篇博客对你的毕业设计有所帮助。
+你需要准备的内容有:
+- VScode
+- 下载[清华源texlive2026.iso](https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/)
+- VSCode的插件[Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+- 获取学校的Latex模板，这里采用[HEU-Latex-主题](https://github.com/Li-Wenhui/HeuThesis.git)
 
-我给你整理成一篇 **结构完整、可直接发布的技术 Blog**（适合发在 CSDN / 博客园 / 知乎 / 个人博客）。内容包括问题、原因、解决方案和最佳实践。
+关于texlive2026.iso的安装，网上有很多参考资料，这里不过多赘述。需要注意:
+
+- 修改安装根目录，我选择的是D盘
+- 取消勾选安装TeXwords前端
+- 在Advance中，选择中文，英文或者你需要的其他语言
+
+希望这一篇博客对你的毕业设计有所帮助
 
 ---
 
-# VSCode 编译 HEUThesis 论文模板报错：`I can't find file main.tex` 解决方法
+#### HeuThesis 模板初始化与编译教程
 
-在使用 **哈尔滨工程大学 LaTeX 论文模板（HeuThesis）** 时，很多人在 VSCode 终端编译会遇到类似报错：
+在下载并解压 **HeuThesis LaTeX 论文模板**之后，需要进行一次初始化操作，才能正常编译毕业论文。下面介绍完整的初始化流程。
+
+---
+
+#### 1 解压模板并打开项目
+
+首先下载 HeuThesis 模板压缩包，并将其解压到本地目录。
+
+解压完成后，使用 VSCode 打开该文件夹：
+
+```css
+File → Open Folder
+```
+
+选择解压后的 `heuthesis-master` 目录。
+
+---
+
+#### 2 打开终端
+
+在 VSCode 中打开终端：
+
+```css
+Terminal → New Terminal
+```
+
+此时终端的工作目录应该位于项目根目录：
+
+```css
+heuthesis-master
+```
+
+---
+
+#### 3 生成模板类文件
+
+在项目根目录中可以看到一个文件：
+
+```css
+heuthesis.ins
+```
+
+该文件用于生成论文模板的核心类文件 `heuthesisbook.cls`。
+
+在终端中运行：
+
+```bash
+latex heuthesis.ins
+```
+
+执行完成后，会生成如下文件：
+
+```css
+heuthesisbook.cls
+```
+
+该 `.cls` 文件是论文模板正常编译所必需的。
+
+---
+
+#### 4 进入示例论文目录
+
+模板中提供了示例论文，路径为：
+
+```css
+examples/book/bachelor
+```
+
+在终端中进入该目录：
+
+```bash
+cd examples/book/bachelor
+```
+
+---
+
+#### 5 编译论文示例
+
+在该目录下可以看到论文主文件：
+
+```css
+main.tex
+```
+
+使用 `xelatex` 进行编译：
+
+```bash
+xelatex main.tex
+```
+
+如果编译成功，会生成以下文件：
+
+```css
+main.pdf
+```
+
+此时即可打开 PDF 预览论文效果。
+
+---
+
+#### 6 预览论文
+
+生成 PDF 后，可以直接在 VSCode 或 PDF 阅读器中打开：
+
+```css
+main.pdf
+```
+
+查看论文模板的排版效果。
+
+---
+
+#### 7 初始化完成
+
+至此，HeuThesis 模板的初始化步骤基本完成。后续只需要在 `main.tex` 及相关章节文件中修改内容，即可开始撰写自己的毕业论文。
+
+---
+
+#### 总结
+
+整个初始化流程可以总结为以下几个步骤：
+
+1. 下载并解压 HeuThesis 模板
+2. 使用 VSCode 打开项目目录
+3. 在终端执行 `latex heuthesis.ins` 生成模板类文件
+4. 进入 `examples/book/bachelor` 示例目录
+5. 使用 `xelatex main.tex` 编译示例论文
+6. 打开生成的 PDF 进行预览
+
+完成以上步骤后，LaTeX 论文模板即可正常使用。
+
+---
+
+### VSCode 编译 HEUThesis 论文模板报错：`I can't find file main.tex` 解决方法
+
+在使用HeuThesis时，很多人在 VSCode 终端编译会遇到类似报错：
 
 ```text
 ! I can't find file 'main.tex'.
@@ -40,7 +183,7 @@ tags:
 
 ---
 
-# 一、问题现象
+#### 1、问题现象
 
 在 VSCode 终端运行：
 
@@ -62,11 +205,11 @@ xelatex main.tex
 
 如下图所示：
 
-（这里可以放你的截图）
+![alt text](image.png)
 
 ---
 
-# 二、问题原因
+#### 2、问题原因
 
 问题 **几乎 100% 是因为当前终端路径不正确**。
 
@@ -91,9 +234,9 @@ HeuThesis-master
 
 可以看到：
 
-### main.tex 实际位置
+#### main.tex 实际位置
 
-```
+```text
 heuthesis-master/examples/book/bachelor/main.tex
 ```
 
@@ -107,9 +250,9 @@ LaTeX 自然找不到文件。
 
 ---
 
-# 三、解决方案
+#### 3、解决方案
 
-## 方法一：进入正确目录（推荐）
+#### 方法一：进入正确目录（推荐）
 
 先进入 `main.tex` 所在目录：
 
@@ -132,7 +275,7 @@ xelatex main.tex
 
 ---
 
-## 方法二：直接指定路径
+#### 方法二：直接指定路径
 
 也可以直接编译指定路径：
 
@@ -144,7 +287,7 @@ xelatex examples/book/bachelor/main.tex
 
 ---
 
-# 四、HEUThesis 正确编译流程
+#### 4、HEUThesis 正确编译流程
 
 论文模板一般需要 **多次编译**：
 
@@ -166,19 +309,19 @@ xelatex main
 
 ---
 
-# 五、VSCode 推荐配置（一键编译）
+#### 5、VSCode 推荐配置（一键编译）
 
 如果你安装了 **LaTeX Workshop 插件**，可以直接一键编译。
 
 快捷键：
 
-```
+```text
 Ctrl + Alt + B
 ```
 
 默认流程：
 
-```
+```text
 xelatex → biber → xelatex → xelatex
 ```
 
@@ -186,7 +329,7 @@ xelatex → biber → xelatex → xelatex
 
 ---
 
-# 六、常见错误总结
+#### 6、常见错误总结
 
 | 错误                                | 原因         | 解决                  |
 | --------------------------------- | ---------- | ------------------- |
@@ -197,7 +340,7 @@ xelatex → biber → xelatex → xelatex
 
 ---
 
-# 七、最佳实践（推荐流程）
+#### 7、最佳实践（推荐流程）
 
 1️⃣ 进入论文目录
 
@@ -216,30 +359,22 @@ xelatex main
 
 3️⃣ 或使用 VSCode
 
-```
+```text
 Ctrl + Alt + B
 ```
 
 ---
 
-# 八、总结
+#### 8、总结
 
 HEUThesis 模板编译失败，大多数情况下不是 LaTeX 问题，而是 **终端路径错误**。
 
 只要保证：
 
-```
+```text
 在 main.tex 所在目录执行 xelatex
 ```
 
 基本都可以正常编译。
 
 ---
-
-如果需要，我还可以帮你再写一篇 **进阶版技术 Blog**：
-
-* 《VSCode + LaTeX Workshop 配置 HEUThesis 模板完整指南》
-* 《HEU Thesis 模板从下载到编译完整教程》
-* 《LaTeX 论文写作环境 10 分钟搭建指南》
-
-我可以帮你整理成 **一篇完整高质量技术文章（阅读量很高那种）**。
