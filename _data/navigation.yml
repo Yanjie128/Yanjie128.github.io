@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Home"
-    url: 
+    url: /
   
   - title: "Projects"
     url: /projects/
 
-  - title: "Blog"
+  - title: "Blogs"
     url: /blogs/
   
   - title: "Resume"
