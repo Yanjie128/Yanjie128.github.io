@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Blogs"
+title: "📚 My blog"
 permalink: /blogs/
 ---
 
-# 📚 My blog
+
 
 {% for post in site.posts %}
 

@@ -11,7 +11,7 @@ tags:
   - VScode
 ---
 
-# Windows 下 JavaScript / TypeScript 开发环境配置（VSCode）
+<!-- # Windows 下 JavaScript / TypeScript 开发环境配置（VSCode） -->
 
 ## 一、环境背景
 
