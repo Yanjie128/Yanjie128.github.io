@@ -317,12 +317,8 @@ added 1 package in 1s
 
 ---
 
-如果需要继续学习 TypeScript，可以进一步了解：
+运行效果图:
 
-* TypeScript 类型系统
-* ES6 模块
-* Node.js + TypeScript 项目结构
-* 前端框架（React + TypeScript）
+![alt text](/assets/blog_picture/image5.png)
 
 ---
-
