@@ -11,10 +11,6 @@ tags:
   - VScode
 ---
 
-下面是一篇根据你刚刚整个配置过程整理的 **完整博客 Markdown**。结构是标准技术博客结构，直接可以发到 **CSDN / 博客园 / 掘金 / GitHub README**。
-
----
-
 # Windows 下 JavaScript / TypeScript 开发环境配置（VSCode）
 
 ## 一、环境背景
