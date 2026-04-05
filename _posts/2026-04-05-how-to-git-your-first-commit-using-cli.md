@@ -1,5 +1,3 @@
-# How to Git your First Commit Using CLI:
-
 We often meet a situation like this: 
 
 So how to fix it.
