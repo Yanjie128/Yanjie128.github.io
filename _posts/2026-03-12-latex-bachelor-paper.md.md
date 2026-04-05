@@ -424,20 +424,13 @@ xelatex examples/book/bachelor/main.tex
 论文模板一般需要 **多次编译**：
 
 ```bash
-xelatex main
-biber main
-xelatex main
-xelatex main
+xelatex -shell-escape main.tex
+bibtex main
+xelatex -shell-escape main.tex
+xelatex -shell-escape main.tex
+splitindex main -- -s heuthesis.ist  # 自动生成索引
+xelatex -shell-escape main.tex
 ```
-
-原因：
-
-| 命令      | 作用     |
-| ------- | ------ |
-| xelatex | 生成基础文档 |
-| biber   | 处理参考文献 |
-| xelatex | 更新引用   |
-| xelatex | 最终排版   |
 
 ---
 
@@ -454,7 +447,7 @@ Ctrl + Alt + B
 默认流程：
 
 ```text
-xelatex → biber → xelatex → xelatex
+xelatex → bibtex → xelatex → xelatex
 ```
 
 这样就不用每次手动输入命令。
@@ -483,10 +476,10 @@ cd examples/book/bachelor
 2️⃣ 编译
 
 ```bash
-xelatex main
-biber main
-xelatex main
-xelatex main
+xelatex main.tex
+bibtex main
+xelatex main.tex
+xelatex main.tex
 ```
 
 3️⃣ 或使用 VSCode
