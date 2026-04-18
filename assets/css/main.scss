@@ -17,3 +17,35 @@ search: false
     max-width: 1500px;
   }
 }
+
+.search-content {
+  .search-input {
+    font-size: 2rem;
+    line-height: 1.25;
+    color: #4b5563;
+
+    @include breakpoint($large) {
+      font-size: 2.6rem;
+    }
+
+    @include breakpoint($x-large) {
+      font-size: 3rem;
+    }
+  }
+
+  .results__found {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #6b7280;
+  }
+
+  .archive__item-title {
+    font-size: 1.4rem;
+    line-height: 1.35;
+  }
+
+  .archive__item-excerpt {
+    font-size: 1rem;
+    color: #4b5563;
+  }
+}
