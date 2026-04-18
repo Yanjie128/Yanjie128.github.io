@@ -7,3 +7,13 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+// codex feat
+
+// Widen the desktop reading area so each row can carry more content.
+@include breakpoint($x-large) {
+  #main,
+  .masthead__inner-wrap,
+  .page__footer footer {
+    max-width: 1500px;
+  }
+}
