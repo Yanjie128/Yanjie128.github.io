@@ -2,19 +2,15 @@
 main:
   - title: "Home"
     url: /
-  
   - title: "Projects"
     url: /projects/
-
-  - title: "Blogs"
+  - title: "Blog"
     url: /blogs/
-  
   - title: "Resume"
     url: /resume/
-
   - title: "About"
     url: /about/
-
+  - title: "Search"
+    url: /search/
   - title: "GitHub"
     url: "https://github.com/Yanjie128"
-

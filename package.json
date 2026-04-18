@@ -1,27 +1,14 @@
 {
-  "name": "minimal-mistakes",
+  "name": "eyengeol-site",
   "private": true,
-  "version": "4.27.3",
-  "description": "Minimal Mistakes 2 column Jekyll theme.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "keywords": [
-    "jekyll",
-    "theme",
-    "minimal"
-  ],
-  "author": "Michael Rose",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
-  "engines": {
-    "node": ">= 0.10.0"
+  "version": "1.0.0",
+  "description": "Build helpers for Mi Yanjie's Jekyll personal website.",
+  "scripts": {
+    "build:js": "uglifyjs assets/js/vendor/jquery/jquery-3.6.0.js assets/js/plugins/*.js assets/js/_main.js -c -m --comments '/@mmistakes/' --source-map -o assets/js/main.min.js",
+    "serve": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build"
   },
   "devDependencies": {
-    "uglify-js": "^3.17.4"
+    "uglify-js": "^3.19.3"
   }
 }

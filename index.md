@@ -1,13 +1,29 @@
 ---
 layout: home
 author_profile: true
-title: 
+title: "Build, Learn, Share"
+classes: wide
 ---
-感谢您光临我的github主页
 
-Welcome to my GitHub Page!🚀🚀🚀
+欢迎来到我的个人网站。
 
-I am a student majoring EE, and currently study at Harbin Engineering University.
+我是 **Mi Yanjie**，目前是一名电子信息相关方向的本科生，也在持续把兴趣拓展到 **后端开发、工程化工具链和 AI 应用**。这个站点用来记录我正在学习的内容、搭建环境时踩过的坑，以及我在项目实践中的思考。
 
-In these repository, I will release and share projects📦, tools💻, and other interesting things🔴.
+## 这里有什么
 
+- **Blog**: 记录开发环境配置、工具使用和学习过程中的真实经验。
+- **Projects**: 整理正在做的方向、练习型项目和后续准备公开的作品。
+- **Resume**: 用更结构化的方式展示我的背景、关注点和技术方向。
+
+## 当前关注
+
+- 用更稳定的开发环境提升日常效率
+- 打好后端与工程化基础
+- 持续积累可复用的学习笔记和项目经验
+
+## 快速入口
+
+- [阅读博客](/blogs/)
+- [查看项目页](/projects/)
+- [查看个人简历](/resume/)
+- [访问 GitHub](https://github.com/Yanjie128)
