@@ -1,7 +1,8 @@
 ---
 layout: home
 author_profile: true
-title: "Build, Learn, Share"
+# title: "Build, Learn, Share"
+title: "My Website"
 classes: wide
 ---
 
