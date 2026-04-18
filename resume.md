@@ -10,9 +10,9 @@ classes: wide
 **Mi Yanjie**  
 EE undergraduate, incoming graduate student, and learner focused on backend engineering, development tools, and AI-assisted workflows.
 
-## Summary
+<!-- ## Summary
 
-我目前处在从工科背景逐步深入软件开发的阶段，重点在于建立稳定的技术基础，包括命令行工具、开发环境、后端方向的知识储备，以及面向真实项目的工程习惯。
+我目前处在从工科背景逐步深入软件开发的阶段，重点在于建立稳定的技术基础，包括命令行工具、开发环境、后端方向的知识储备，以及面向真实项目的工程习惯。 -->
 
 ## Education
 
@@ -26,11 +26,11 @@ EE undergraduate, incoming graduate student, and learner focused on backend engi
 - Linux / WSL / command line productivity
 - AI tools for learning and development
 
-## Strengths I Am Building
+<!-- ## Strengths I Am Building
 
 - 将学习过程转化为结构化输出
 - 在真实环境中定位问题并逐步解决
-- 通过笔记、博客和项目页面沉淀经验
+- 通过笔记、博客和项目页面沉淀经验 -->
 
 ## Links
 
