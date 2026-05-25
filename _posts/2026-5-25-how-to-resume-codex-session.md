@@ -104,7 +104,7 @@ codex continue
 
 ---
 
-另外，如果你想，我还可以教你：
+<!-- 另外，如果你想，我还可以教你： -->
 
 * 如何让 VS Code + WSL 共用 Codex 会话
 * 如何把 Windows 的 Codex 会话迁移到 WSL
