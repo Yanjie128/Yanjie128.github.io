@@ -6,25 +6,25 @@ title: "My Website"
 classes: wide
 ---
 
-欢迎来到我的个人网站。
+Welcome to my personal website.
 
-我是 **Mi Yanjie**，目前是一名电子信息专业的本科生，也在持续把兴趣拓展到 **后端开发、工具使用和AI 应用**。这个站点用来记录我正在学习的内容、搭建环境时踩过的坑，以及我在项目实践中的思考。
+I am **Mi Yanjie**, an undergraduate student majoring in Electronic Information Engineering. I am also steadily expanding my interests into **backend development, developer tools, and AI applications**. This site is where I document what I am learning, the problems I run into while setting up development environments, and the ideas I develop through hands-on projects.
 
-## 这里有什么
+## What You Can Find Here
 
-- **Blog**: 记录开发环境配置、工具使用和学习过程中的真实经验。
-- **Projects**: 整理正在做的方向、练习型项目和后续准备公开的作品。
-- **Resume**: 用更结构化的方式展示我的背景、关注点和技术方向。
+- **Blog**: Practical notes on development environment setup, tool usage, and lessons learned along the way.
+- **Projects**: A collection of current work, practice projects, and pieces I plan to polish and share publicly.
+- **Resume**: A more structured overview of my background, interests, and technical direction.
 
-## 当前关注
+## Current Focus
 
-- 用更稳定的开发环境提升日常效率
-- 打好后端与工程化基础
-- 持续积累可复用的学习笔记和项目经验
+- Building a more stable development environment to improve day-to-day productivity
+- Strengthening my foundation in backend development and software engineering
+- Accumulating reusable study notes and project experience over time
 
-## 快速入口
+## Quick Links
 
-- [阅读博客](/blogs/)
-- [查看项目页](/projects/)
-- [查看个人简历](/resume/)
-- [访问 GitHub](https://github.com/Yanjie128)
+- [Read the Blog](/blogs/)
+- [View Projects](/projects/)
+- [View Resume](/resume/)
+- [Visit GitHub](https://github.com/Yanjie128)
