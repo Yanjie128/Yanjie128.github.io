@@ -8,7 +8,7 @@ classes: wide
 
 Welcome to my personal website.
 
-I am **Mi Yanjie**, an undergraduate student majoring in Electronic Information Engineering. I am also steadily expanding my interests into **backend development, developer tools, and AI applications**. This site is where I document what I am learning, the problems I run into while setting up development environments, and the ideas I develop through hands-on projects.
+I am **Mi Yanjie**, an undergraduate student majoring in Electronic Information Engineering. I am also steadily expanding my interests into **Agent,AIGC and AI Infra**. This site is where I document what I am learning, the problems I run into while setting up development environments, and the ideas I develop through hands-on projects.
 
 ## What You Can Find Here
 
